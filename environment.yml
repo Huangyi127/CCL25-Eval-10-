@@ -1,0 +1,22 @@
+name: nlp2
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch=2.7.1
+  - torchaudio
+  - torchvision
+  - scikit-learn
+  - tqdm
+  - pillow
+  - pip:
+      - transformers==4.52.4
+      - pytorch-crf==0.7.2
+      - tokenizers==0.21.1
+      - accelerate==1.7.0
+      - huggingface-hub==0.32.4
+      - graphviz==0.20.3
+      - scipy==1.13.1
+      - numpy==2.0.2
+      - safetensors==0.5.3
